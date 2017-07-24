@@ -22,5 +22,5 @@ describe('catnames api', () => {
 		api.post('/catnames')
 		.send({name: 'myAwesomeCatName'})
 		.expect(200, done);
-	});
+	})
 });
